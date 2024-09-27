@@ -2,7 +2,8 @@
 param location string = resourceGroup().location
 
 @description('Password for the SQL Server admin user. PLEASE CHANGE THIS BEFORE DEPLOYMENT!')
-param sqlAdminPassword string = 'Ketan@Microsoft@2024'
+param sqlAdminPassword string = 'Ketan@Microsoft@2024' 
+// ketan2024#microsoft This is a sample Bicep file that deploys a set of Azure resources.
 
 @description('Model deployments for OpenAI')
 param deployments array = [
